@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">W6s</string>
+    <string name="button_summer">夏天</string>
+    <string name="button_winter">冬天</string>
+    <string name="button_spring_autumn">春秋</string>
+    <string name="button_sunny">晴天</string>
+    <string name="button_cloudy">阴天</string>
+    <string name="button_lightning">闪电</string>
+    <string name="button_floating_Clouds">飘云</string>
+    <string name="w6s_title">W6调光软件</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main22">Main22Activity</string>
 </resources>
