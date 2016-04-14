@@ -14,13 +14,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone"
-        android:layout_margin="15dp">
+        android:layout_margin="10dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginBottom="20dp"
             android:text="@string/w6s_title"
+            android:layout_marginBottom="10dp"
             />
 
         <LinearLayout
@@ -33,23 +33,29 @@
                 android:id="@+id/button_summer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_summer"
+                android:background="@mipmap/summer1"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
 
             <Button
                 android:id="@+id/button_winter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_winter"
+                android:background="@mipmap/winter1"
                 android:layout_toRightOf="@id/button_summer"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
 
             <Button
                 android:id="@+id/button_spring_autumn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_spring_autumn"
+                android:background="@mipmap/spring_autumn1"
                 android:layout_toRightOf="@id/button_winter"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
         </LinearLayout>
 
@@ -64,32 +70,36 @@
                 android:id="@+id/button_sunny"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_sunny"
+                android:background="@mipmap/sunny1"
                 android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
 
             <Button
                 android:id="@+id/button_cloudy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_cloudy"
+                android:background="@mipmap/cloudy1"
                 android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
 
             <Button
                 android:id="@+id/button_lightning"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_lightning"
+                android:background="@mipmap/lightning1"
                 android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
 
             <Button
                 android:id="@+id/button_floating_Clouds"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/button_floating_Clouds"
+                android:background="@mipmap/floating_clouds1"
                 android:layout_weight="1"
+                android:layout_margin="1dp"
                 />
         </LinearLayout>
     </LinearLayout>

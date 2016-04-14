@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        h.sendEmptyMessageDelayed(1, 1000*2);
+        h.sendEmptyMessageDelayed(1, 1500);
     }
 }
