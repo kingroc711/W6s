@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "club.anhe.w6s.w6s"
-        minSdkVersion 16
+        minSdkVersion 14
         targetSdkVersion 16
         versionCode 1
         versionName "1.0"

@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void onInit(){
-        mMainLayout.setBackground(getResources().getDrawable(R.mipmap.index2));
+        mMainLayout.setBackgroundResource(R.mipmap.index2);
         mLinearLayout.setVisibility(View.VISIBLE);
     }
 
